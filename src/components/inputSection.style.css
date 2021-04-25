@@ -1,0 +1,27 @@
+.inputSection_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+
+   
+}
+.inputSection_container input,textarea{
+    min-width: 400;
+    border:solid 1px gray;
+    padding: 0.5 em;
+    font-size: 10pt;
+    margin: 0.5em;
+    border-radius: 1em;
+}
+.InputSection__container__btnWrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+.InputSection__container__btnWrapper button{
+    background-color: rebeccapurple;
+    border-radius: 0.3 em;
+    font-size: 10pt;
+    border:none;
+    padding: 0.5em;
+}
